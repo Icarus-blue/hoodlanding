@@ -16,7 +16,7 @@ const TermsConditions = () => {
             </div>
             <div className='text-[rgba(0,0,0,0.5)] px-[9vw] font-medium'>
                 <p className='my-4'>Please read these terms and conditions carefully before accessing or using Hoode. By accessing or using the Platform, you agree to be bound by these terms and conditions. Hoode is an online platform that connects service seekers ("Customers") with service providers ("Providers") for various services.
-                    
+
                                                             @ Copyright Hoode, 2023. All rights reserved; reproduction, adaptation, or translation without permission is prohibited except as permitted under the International copyright laws. All the text, graphics, design, content, and other works are copyrighted works of the Hoode.</p>
                 <p className='text-[30px] my-4 text-black'>Terms And Conditions Of Service</p>
                 <p className="my-2">The following terms shall have the meaning given to them as hereunder:</p>
@@ -215,7 +215,7 @@ const TermsConditions = () => {
                 </ul>
                 <p className='text-[30px] my-4 text-black'>Hoode Privacy Policy</p>
                 <p>It is essential to Hoode to help our customers retain their privacy when they take advantage of all the internet, services, and products we offer.
-                    
+
                                                             We believe your privacy concerns are no one else’s. Your privacy is important to you and to us. So we will protect the information you share with us. To protect your privacy, Hoode follows different policies following worldwide practices for customer privacy and data protection.
 
                     <ul className="list-disc pl-10">

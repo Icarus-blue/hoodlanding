@@ -2,13 +2,15 @@ import React, { useState,useEffect } from 'react'
 import { Link ,useNavigate} from 'react-router-dom'
 import SaudiArabiaFlag from '../../assets/flag'
 
-const Navbar: React.FC = () => {
+const NavbarArabic: React.FC = () => {
         const [mobileNav, setMobileNav] = useState(false)
         const [changeLanguage, setChangeLanguage] = useState(false)
-        const [language,setLanguage] = useState("English")
+        const [language,setLanguage] = useState("العربية")
         const navigate = useNavigate()
+        console.log(language);
+
         useEffect(() => {
-                language === "English" ? navigate('/terms-conditions'): navigate('/ar/terms-conditions')
+                language === "العربية" ? navigate('/ar/terms-conditions'): navigate('/terms-conditions')
         }, [language])
         return (
                 <div className='flex flex-row justify-between items-center relative bg-[#232323]  p-[1vw] rounded-full text-white'>
@@ -91,7 +93,7 @@ const Navbar: React.FC = () => {
                                                 {language === "English" ? <img src="/image/usa.png" className='h-6 w-6' alt="United States English" /> : <SaudiArabiaFlag/>}
                                                 <span className='font-medium'>{language}</span>
                                         </div>
-                                <Link to={"/become-provider"} className='text-black font-medium bg-[#9EE970] py-4  px-5 rounded-full'>Become a Provider</Link>
+                                <Link to={"/become-provider"} className='text-black font-medium bg-[#9EE970] py-4  px-5 rounded-full'>لمزودي الخدمة</Link>
                         </div>
                         <button className="block md:hidden" onClick={() => setMobileNav(true) }>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5 h-5 fill-white">
@@ -102,4 +104,4 @@ const Navbar: React.FC = () => {
         )
 }
 
-export default Navbar
+export default NavbarArabic

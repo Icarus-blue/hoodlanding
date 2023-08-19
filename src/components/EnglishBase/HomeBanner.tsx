@@ -9,7 +9,7 @@ const HomeBanner: React.FC = () => {
         const [language, setLanguage] = useState("English");
         const navigate = useNavigate()
         useEffect(() => {
-                language === "English" ? navigate('/'): navigate('/ar')
+                language === "English" ? navigate('/') : navigate('/ar')
         }, [language])
         return (
                 <div className='rounded-md w-full text-white bg-[#232323] px-[5vw] py-5 relative'>
@@ -20,25 +20,25 @@ const HomeBanner: React.FC = () => {
                                 {mobileNav && (
                                         <div className="block md:hidden absolute top-[110%] right-0 rounded-md  bg-[#232323] p-[2vw] w-[70vw]">
                                                 {changeLanguage && (
-                                                               <div className='flex md:hidden rounded-md absolute bg-[#232323] flex-col px-4 py-2 gap-2 top-[110%] right-[10vw] w-[40vw] md:w-[20vw]'>
-                                                        <button className='flex flex-row items-end justify-end' onClick={() => setChangeLanguage(false)}>
-                                                                <span>&times;</span>
-                                                        </button>
-                                                        <button onClick={() => {
-                                                                setChangeLanguage(false)
-                                                                setLanguage("العربية")
-                                                        }} className="flex hover:bg-slate-800 duration-200 flex-row gap-3 items-center p-2 rounded-md">
-                                                                <SaudiArabiaFlag/>
-                                                                <span className='font-medium'>العربية</span>
-                                                        </button>
-                                                        <button onClick={() => {
-                                                                setChangeLanguage(false)
-                                                                setLanguage("English")
-                                                        }} className="flex hover:bg-slate-800 duration-200 flex-row gap-3 items-center p-2 rounded-md">
-                                                                <img className='h-6 w-6' src="/image/usa.png" alt="United States English" />
-                                                                <span className='font-medium'>English</span>
-                                                        </button>
-                                                </div>)}
+                                                        <div className='flex md:hidden rounded-md absolute bg-[#232323] flex-col px-4 py-2 gap-2 top-[110%] right-[10vw] w-[40vw] md:w-[20vw]'>
+                                                                <button className='flex flex-row items-end justify-end' onClick={() => setChangeLanguage(false)}>
+                                                                        <span>&times;</span>
+                                                                </button>
+                                                                <button onClick={() => {
+                                                                        setChangeLanguage(false)
+                                                                        setLanguage("العربية")
+                                                                }} className="flex hover:bg-slate-800 duration-200 flex-row gap-3 items-center p-2 rounded-md">
+                                                                        <SaudiArabiaFlag />
+                                                                        <span className='font-medium'>العربية</span>
+                                                                </button>
+                                                                <button onClick={() => {
+                                                                        setChangeLanguage(false)
+                                                                        setLanguage("English")
+                                                                }} className="flex hover:bg-slate-800 duration-200 flex-row gap-3 items-center p-2 rounded-md">
+                                                                        <img className='h-6 w-6' src="/image/usa.png" alt="United States English" />
+                                                                        <span className='font-medium'>English</span>
+                                                                </button>
+                                                        </div>)}
                                                 <div className="flex flex-col gap-2 px-4 text-sm w-full">
                                                         <div className="flex flex-row justify-between">
                                                                 <div></div>
@@ -53,7 +53,7 @@ const HomeBanner: React.FC = () => {
                                                         <Link to={"#"}>Contact us</Link>
                                                         <div className='flex flex-row  items-center  justify-between '>
                                                                 <button className="flex flex-row gap-3 items-center  py-[0.8vh]  px-[2vw]" onClick={() => setChangeLanguage(true)}>
-                                                                        {language === "English" ? <img src="/image/usa.png" className='h-6 w-6' alt="United States English" /> : <SaudiArabiaFlag/>}
+                                                                        {language === "English" ? <img src="/image/usa.png" className='h-6 w-6' alt="United States English" /> : <SaudiArabiaFlag />}
                                                                         <span className='font-medium'>{language}</span>
                                                                 </button>
                                                                 <Link to={"/become-provider"} className='text-black font-medium bg-[#9EE970] py-[0.8vh]  px-[2vw]  rounded-full'>Become a Provider</Link>
@@ -67,7 +67,7 @@ const HomeBanner: React.FC = () => {
                                         <Link to={"#"}>Contact us</Link>
                                 </div>
                                 <Link to={'/'}>
-                                <img src='/svg/logo.svg' alt='logo' className='w-[10vw]' />
+                                        <img src='/svg/logo.svg' alt='logo' className='w-[10vw]' />
                                 </Link>
                                 <div className='hidden md:flex flex-row gap-3 items-center text-[10px] sm:text-base   '>
                                         {changeLanguage && (
@@ -79,7 +79,7 @@ const HomeBanner: React.FC = () => {
                                                                 setChangeLanguage(false)
                                                                 setLanguage("العربية")
                                                         }} className="flex hover:bg-slate-800 duration-200 flex-row gap-3 items-center p-2 rounded-md">
-                                                                <SaudiArabiaFlag/>
+                                                                <SaudiArabiaFlag />
                                                                 <span className='font-medium'>العربية</span>
                                                         </button>
                                                         <button onClick={() => {
@@ -92,7 +92,7 @@ const HomeBanner: React.FC = () => {
                                                 </div>
                                         )}
                                         <div className="flex flex-row gap-3 items-center p-3 border border-[#000000] hover:border rounded-md transition-all  relative" onClick={() => setChangeLanguage(true)}>
-                                                {language === "English" ? <img src="/image/usa.png" className='h-6 w-6' alt="United States English" /> : <SaudiArabiaFlag/>}
+                                                {language === "English" ? <img src="/image/usa.png" className='h-6 w-6' alt="United States English" /> : <SaudiArabiaFlag />}
                                                 <span className='font-medium'>{language}</span>
                                         </div>
                                         <Link to={"/become-provider"} className='text-black font-medium bg-[#9EE970] py-4  px-5 rounded-full'>Become a Provider</Link>
