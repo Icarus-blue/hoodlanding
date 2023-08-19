@@ -60,9 +60,9 @@ const NewTermsConditions = () => {
                                 <li>The commission/gross commission and user service charges on each requested service shall become due as soon as the request is placed and payment is received.</li>
                                 <li> Hoode Provider will deduct its commission/gross commission in advance, before the payment of the price of the requested services to the service provider. The commission/gross commission deducted by Hoode Provider will be communicated to the service provider during the payment process.</li>
                                 <li>
-                                The Provider shall facilitate the collection of this payment from the customer using the
+                                    The Provider shall facilitate the collection of this payment from the customer using the
 
-agreed-upon payment method or platform. However, the Provider shall collect this payment from the customer and subsequently remit it to the platform through a fund transfer mechanism.</li>
+                                    agreed-upon payment method or platform. However, the Provider shall collect this payment from the customer and subsequently remit it to the platform through a fund transfer mechanism.</li>
                                 <li>Disputes regarding the paid amount will be resolved at our discretion.</li>
                                 <li>The consumer shall be responsible for service payment to the service provider, either online or in cash.</li>
                                 <li>All the transactions, payments, deductions, and bank charges shall be made by the Hoode via the banking channel from the account provided by you in the membership form.</li>
@@ -83,87 +83,124 @@ agreed-upon payment method or platform. However, the Provider shall collect this
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>5. DISPUTE RESOLUTION</p>
+                            <p className='text-[22px] my-4 text-black'>5. TERM OF LETTER OF AGREEMENT</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>In a dispute between the Customer and the service provider, we encourage both parties to first attempt to resolve the issue amicably through direct communication.</li>
+                                <li>The period of this Agreement is initially set for one year from the date of signing of this Letter of Agreement unless mentioned otherwise. However, it may be subject to extension based on specific terms and conditions outlined in the Agreement itself.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='my-1'>
+                            <p className='text-[22px] my-4 text-black'>6. DISPUTE RESOLUTION</p>
+                            <ul className='my-3 list-decimal pl-5'>
+                                <li>In a dispute between the customer and the service provider, we encourage both parties to first attempt to resolve the issue amicably through direct communication.</li>
                                 <li>If a dispute cannot be resolved directly, either party may contact our customer support team via social media to seek assistance and provide relevant details regarding the dispute.</li>
-                                <li>We will review the dispute and make reasonable efforts to facilitate a fair resolution based on the information provided by both parties.</li>
-                                <li>Our decision regarding the dispute will be final and binding.</li>
+                                <li>We will review the dispute and make reasonable efforts to facilitate a fair resolution based on the information provided by both parties. After submission, the Provider shall have the right to object to the dispute.</li>
+                                <li>In the absence of objection, our decision regarding the dispute will be final and binding.</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>6. PAYMENT DISPUTES</p>
+                            <p className='text-[22px] my-4 text-black'>7. PAYMENT DISPUTES</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>If there is a disagreement between the Customer and the service provider regarding the paid amount, the Customer may request an update.</li>
-                                <li>The service provider will have the opportunity to review the Customer's request and provide their objections within seven days, along with any relevant supporting documents, if required.</li>
-                                <li>If an objection is rejected from our side, the bid payment specified shall be deemed final and obligatory.</li>
+                                <li>If there is a disagreement between the customer and the service provider regarding the paid amount, the customer may request an update.</li>
+                                <li>If the paid amount differs from the bid amount, the customer can request an update, and the Provider can object to it within seven days, along with a supporting document, if necessary.</li>
+                                <li>We retain the authority to approve or reject the update for any reason.</li>
+                                <li>In the event of an objection being rejected from our side, the bid payment specified shall be deemed final and obligatory.</li>
+                                <li>The service provider will have the opportunity to review the customer's request and provide their objections within seven days, along with any relevant supporting documents, if required.</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>7. ACCOUNT SUSPENSION/TERMINATION</p>
+                            <p className='text-[22px] my-4 text-black'>8. ACCOUNT SUSPENSION/TERMINATION</p>
                             <ul className='my-3 list-decimal pl-5'>
                                 <li>In cases where fraudulent activities, intentional misconduct, or repeated violations of our Terms and Conditions are identified, we reserve the right to suspend or terminate the account of the party involved in such activities.</li>
-                                <li>Account suspension or termination may occur during the dispute resolution process if there is clear evidence of a violation.</li>
-                                <li>The suspension or termination of an account does not absolve the party from any obligations or liabilities arising from previous transactions or services provided.</li>
+                                <li>Account suspension or termination may occur during the dispute resolution process if there is clear evidence of a violation.
+
+                                </li>
+                                <li>
+                                    The suspension or termination of an account does not absolve the party from any obligations or liabilities arising from previous transactions or services provided.
+                                </li>
+                                <li>
+                                    In cases of suspicious activity, we reserve the right to suspend or terminate the account for security reasons. For instance, if a provider consistently updates the amount for their services multiple times or receives a significant number of negative reviews regarding the quality of their service, we may take necessary measures such as account suspension or termination to ensure the satisfaction and trust of our users.
+                                </li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>8. ABIDING BY OTHER TERMS AND CONDITIONS AND AMENDME</p>
+                            <p className='text-[22px] my-4 text-black'>9. ABIDING BY OTHER TERMS AND CONDITIONS AND AMENDMENT</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>You will abide by all other terms and conditions of Hoode other than the present terms and conditions. You may also contact us if there is any ambiguity or difficulty in abiding by our terms and conditions.</li>
-                                <li>Hoode reserves the right to change, abolish, modify, or replace any or all terms and conditions without any notice to you.</li>
+                                <li>You will abide by all other terms and conditions of Hoode Provider other than the present terms and conditions. You may also contact us if there is any ambiguity or difficulty in abiding by our terms and conditions.</li>
+                                <li>Hoode Provider reserves the right to change, abolish, modify, or replace any or all terms and conditions without any notice to you.</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>9. FEEDBACK</p>
+                            <p className='text-[22px] my-4 text-black'>10. FEEDBACK</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>All comments, complaints, feedback, information or materials submitted by the Customer to Hoode through or in association with providing your services shall be considered non- confidential and Hoode’s property. Hoode may use such comments, complaints, information or materials in any unrestricted way. This information will be forwarded to you for the betterment of your services.</li>
+                                <li>All comments, complaints, feedback, information or materials submitted by the Provider to Hoode Provider through or in association with providing your services shall be considered non-confidential and Hoode Provider’s property. Hoode Provider may use such comments, complaints, information or materials in any way it chooses unrestricted. This information will be forwarded to you for the betterment of your services.
+
+                                </li>
+
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>10. DISCLAIMER</p>
+                            <p className='text-[22px] my-4 text-black'>11. DISCLAIMER</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>Upon awarding a service to a provider, it shall be understood that cancellation is not an option, except in cases where the Customer has initiated communication through the designated social platforms. Any requests for cancellation must be made in writing through the specified social channels, as communicated by the contracting party.</li>
-                                <li>Hoode is a third-party platform that assumes responsibility for connecting the Provider with the customer. However, the Hoode platform is not responsible for the quality of service and is not related in any way to its warranties, guarantees, promos, loss, or damage in any manner whatsoever. Neither the Hoode platform nor its officers, directors, employees, agents, or affiliates are responsible nor liable for any loss, damage (including, but not limited to, actual, consequential, or punitive), liability, claim, or other injury or cause related to or resulting from the provision of its services to you.</li>
+                                <li>Upon awarding a service to a provider, it shall be understood that cancellation is not an option, except in cases where the Provider has initiated communication through the designated social platforms. Any requests for cancellation must be made in writing through the specified social channels, as communicated by the contracting party.</li>
+                                <li>Hoode Provider is a third-party platform that assumes responsibility for connecting the Provider with the customer. However, the Hoode Provider platform is not responsible for the quality of service and is not related in any way to its warranties, guarantees, promos, loss, or damage in any manner whatsoever. Neither the Hoode Provider platform nor its officers, directors, employees, agents, or affiliates are responsible nor liable for any loss, damage (including, but not limited to, actual, consequential, or punitive), liability, claim, or other injury or cause related to or resulting from the provision of its services to you.</li>
+                                <li>The service provider acknowledges that it is solely responsible for complying with all applicable laws, regulations, and licensing requirements related to the services it offers through the Hoode Provider platform. Hoode Provider disclaims any liability for the service provider's failure to comply with such laws, regulations, or licensing requirements.</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>11. TERMINATION OF SERVICE</p>
+                            <p className='text-[22px] my-4 text-black'>12. TERMINATION OF SERVICES</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>Hoode may, in its sole discretion, terminate or suspend its services to all or part of the service area on breach of any or all parts of this letter of Agreement. In the event this Agreement is terminated, your liabilities regarding payment of the services and the warranties and limitation of liabilities set forth on the service and/or in this Agreement shall survive any such termination.</li>
-                                <li>The period of this Agreement is initially set for one year from the date of signing of this Letter of Agreement unless mentioned otherwise. However, it may be subject to extension based on specific terms and conditions outlined in the Agreement.</li>
+                                <li>Hoode Provider may, in its sole discretion, terminate or suspend its services to all or part of the service area in breach of any or all parts of this letter of Agreement. In the event this Agreement is terminated, your liabilities regarding payment of the services and the warranties and limitation of liabilities set forth on the service and/or in this Agreement shall survive any such termination.</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>12. DATA COLLECTION</p>
-                            <ul className='my-3 list-decimal pl-5'>
-                                <li>Customers understand and agree that certain information, such as their location, name, phone number, email and service details, may be shared with Providers once a service is awarded.</li>
-                                <li>For the purpose of obtaining and setting locations, the service may utilize Google Maps.</li>
-                                <li>Hoode collects and processes personal data in accordance with its Privacy Policy. By using Hoode, you consent to the collection, use, and disclosure of your personal information as described in the Privacy Policy</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>13. ACCOUNT AND USER INFORMATION</p>
+                            <p className='text-[22px] my-4 text-black'>13. DATA COLLECTION</p>
                             <ul className='my-3 list-decimal pl-5'>
                                 <li>
-                                    If a customer decides to sell or transfer their account or contact information to a third party, it is important to note that their information, including personal details, may become visible to the new buyer or transferee. The Platform will not be held responsible for any consequences or misuse of information that may occur as a result of such transactions. It is the responsibility of the Customer to exercise caution and ensure the security and confidentiality of their information when engaging in any transfer or sale of their account or contact details.</li>
-                                <li>If a customer abandons their registered phone number and is subsequently purchased or acquired by another individual or entity, it is important to note that the previous owner's information, including personal details, may become visible to the new buyer.</li>
+                                    Providers understand and agree that certain information, such as their location, name, phone number, email and service details, may be shared with Providers once a service is awarded.</li>
+                                <li>For the purpose of obtaining and setting locations, the service may utilize Google Maps.</li>
+                                <li>By using our platform and providing your contact information, you consent to receive communications from us for various purposes related to your account and the services provided.</li>
+
+                                <li>In order to facilitate the data collection process, providers are required to provide the following information and submit the specified documents:
+                                    <ul className="list-disc pl-5">
+                                        <li>Name: Providers shall furnish their legal name, which will be used for identification purposes throughout the data collection process.</li>
+                                        <li>Services Provided: A comprehensive list of the services offered by the Provider shall be provided, ensuring clarity regarding the scope of their offerings.</li>
+                                        <li>Identification (ID) for Individuals: Individual providers must submit valid identification documents, such as passports or national identification cards, to establish their personal identity.</li>
+                                        <li>Commercial Registration for Companies: For companies or business entities acting as providers, valid commercial registration documents must be submitted to verify their legal status.</li>
+                                        <li>Document Upload: Providers shall be required to digitally upload the necessary identification document or commercial registration document as specified by the applicable regulations or procedures.</li>
+                                        <li>Accepted Services: Providers shall indicate the specific services they are willing to offer or accept, enabling effective matching and communication with potential users.</li>
+                                    </ul>
+                                </li>
+
+
+                                <li>Hoode Provider collects and processes personal data in accordance with its Privacy Policy. By using Hoode Provider, you consent to the collection, use, and disclosure of your personal information as described in the Privacy Policy.</li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='my-1'>
+                            <p className='text-[22px] my-4 text-black'>14. ACCOUNT AND USER INFORMATION</p>
+                            <ul className='my-3 list-decimal pl-5'>
+                                <li>If a service provider decides to sell or transfer their account or contact information to a third party, it is important to note that their information, including personal details, may become visible to the new buyer or transferee. The platform will not be held responsible for any consequences or misuse of information that may occur as a result of such transactions. It is the responsibility of the Provider to exercise caution and ensure the security and confidentiality of their information when engaging in any transfer or sale of their account or contact details.
+
+                                </li>
+                                <li>If a service provider abandons their registered phone number and it is subsequently purchased or acquired by another individual or entity, it is important to note that the previous owner's information, including personal details, may become visible to the new buyer.</li>
                                 <li>By using our platform and providing your contact information, you consent to receive communications from us for various purposes related to your account and the services provided.</li>
                                 <li>We may contact you through the contact details you have provided, which may include email, phone calls, social media channels, SMS or at any platform.</li>
                                 <li>Our communications may include, but are not limited to:
@@ -172,12 +209,13 @@ agreed-upon payment method or platform. However, the Provider shall collect this
                                         <li>Information regarding the resolution of any disputes or complaints related to the services provided.</li>
                                         <li>Important updates or changes to our platform, policies, or terms and conditions.</li>
                                         <li>Notifications or reminders regarding pending payments, account renewal, or other account-related matters.</li>
+
                                     </ul>
                                 </li>
-
-
                                 <li>Please note that any charges associated with SMS or phone calls, such as network provider fees or data charges, are solely your responsibility.</li>
-                                <li>We prioritize the privacy and security of your personal information, and we will handle it in accordance with our Privacy Policy and applicable data protection laws.</li>
+                                <li>
+                                    We prioritize the privacy and security of your personal information, and we will handle it in accordance with our Privacy Policy and applicable data protection laws.
+                                </li>
                                 <li>You may opt-out of certain non-essential communications by adjusting your notification preferences within your account settings, subject to any legal or contractual requirements.</li>
                                 <li>However, please note that opting out of certain communications may limit our ability to provide you with important updates or resolve any issues effectively.</li>
                             </ul>
@@ -185,27 +223,38 @@ agreed-upon payment method or platform. However, the Provider shall collect this
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>14. LIMITATION OF LIABILITY</p>
+                            <p className='text-[22px] my-4 text-black'>15. LIMITATION OF LIABILITY</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>Hoode shall not be liable for any direct, indirect, incidental, consequential, or exemplary damages arising out of or in connection with the use of Hoode, including but not limited to damages for loss of profits, goodwill, data, or other intangible losses.</li>
+                                <li>Hoode Provider shall not be liable for any direct, indirect, incidental, consequential, or exemplary damages arising out of or in connection with the use of Hoode Provider, including but not limited to damages for loss of profits, goodwill, data, or other intangible losses.</li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>15. GOVERNING LAW AND JURISDICTION</p>
+                            <p className='text-[22px] my-4 text-black'>16. GOVERNING LAW AND JURISDICTION</p>
                             <ul className='my-3 list-decimal pl-5'>
                                 <li>This Agreement shall be governed by and constructed in accordance with the laws of the Kingdom of Saudi Arabia (KSA). The KSA courts shall have exclusive jurisdiction and venue over any dispute arising out of or relating to this letter of Agreement, and each party hereby consents to the jurisdiction and venue of such courts.</li>
+
                             </ul>
                         </div>
                     </li>
                     <li>
                         <div className='my-1'>
-                            <p className='text-[22px] my-4 text-black'>16. COMMUNICATION AND SUPPORT</p>
+                            <p className='text-[22px] my-4 text-black'>17. COMMUNICATION AND SUPPORT:</p>
                             <ul className='my-3 list-decimal pl-5'>
-                                <li>Customers can communicate with the customer support team via social media accounts in both Arabic and English.</li>
-                                <li>Our customer support team will make every effort to respond to inquiries and provide assistance in the Customer's preferred language based on availability.</li>
+                                <li>Providers can communicate with our support team via social media accounts in both Arabicand English.</li>
+                                <li>Our support team will make every effort to respond to inquiries and provide assistance in theProvider's preferred language based on availability.</li>
                                 <li>While we aim to provide comprehensive support in both languages, there may be instances where certain information or responses are available in one language only.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div className='my-1'>
+                            <p className='text-[22px] my-4 text-black'>18. GENERAL PROVISIONS:</p>
+                            <ul className='my-3 list-decimal pl-5'>
+                                <li>It is acknowledged and understood that there may be situations where no contact center orcare center is available or accessible.</li>
+                                <li>In such instances, the parties involved shall make reasonable efforts to provide alternative means of communication or support. These alternatives may include but are not limited to, utilizing online platforms, email correspondence, self-service options, or any other mutually agreed-upon methods.</li>
+                                <li>If any provision of this Agreement is deemed void, unlawful, or otherwise unenforceable for any reason, that provision shall be severed from this Agreement and the remaining provisions of this Agreement shall remain in force. This contains the entire Agreement between you and Hoode Provider concerning your provision of services, and the Agreement shall not be modified, except in writing, signed by both parties. If you have questions regarding Hoode Provider's Terms and Conditions and service agreement, you may contact us at  <span>business@hooode.com.</span></li>
                             </ul>
                         </div>
                     </li>
@@ -222,9 +271,7 @@ agreed-upon payment method or platform. However, the Provider shall collect this
                     </li>
                 </ul>
                 <p className='text-[30px] my-4 text-black'>Hoode Privacy Policy</p>
-                <p>It is essential to Hoode to help our customers retain their privacy when they take advantage of all the internet, services, and products we offer.
-
-                    We believe your privacy concerns are no one else’s. Your privacy is important to you and to us. So we will protect the information you share with us. To protect your privacy, Hoode follows different policies following worldwide practices for customer privacy and data protection.
+                <p>It is essential to Hoode to help our customers retain their privacy when they take advantage of all the internet, services, and products we offer. We believe your privacy concerns are no one else’s. Your privacy is important to you and to us. So we will protect the information you share with us. To protect your privacy, Hoode follows different policies following worldwide practices for customer privacy and data protection.
 
                     <ul className="list-disc pl-10">
                         <li>We may share your personal information with third parties, such as service providers, contractors, or payment processors, solely for the purpose of providing the requested home services or facilitating transactions. However, we will not sell, rent, or lease your personal information to any third parties unless we have obtained your explicit consent or are required by law to do so.</li>

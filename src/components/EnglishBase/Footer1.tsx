@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom'
 
-const Footer = () => {
+const Footer1 = () => {
         return (
                 <div className='w-full  '>
                         <div className="flex flex-row px-[4vw] py-[4.5vw]">
@@ -37,11 +37,11 @@ const Footer = () => {
                                         <p className='text-[rgba(0,0,0,0.4)]'>All rights reserved</p>
                                 </div>
                                 <div className="flex flex-row gap-3 items-center text-[rgba(0,0,0,0.4)] font-medium">
-                                        <Link to={"/terms-conditions1"}>Terms conditions and Privacy Policies</Link>
+                                        <Link to={"/become-provider/terms-conditions-new"}>Terms conditions and Privacy Policies</Link>
                                 </div>
                         </div>
                 </div>
         )
 }
 
-export default Footer
+export default Footer1

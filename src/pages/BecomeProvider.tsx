@@ -3,7 +3,7 @@ import BecomeBanner from "../components/EnglishBase/BecomeBanner"
 import LiveWorld from "../components/EnglishBase/LiveWorld"
 import HowItWorks from "../components/EnglishBase/HowItWorks"
 import Testimonials from "../components/EnglishBase/Testimonials"
-import Footer from "../components/EnglishBase/Footer"
+import Footer1 from "../components/EnglishBase/Footer1"
 import { Link } from "react-router-dom"
 
 const BecomeProvider = () => {
@@ -37,7 +37,7 @@ const BecomeProvider = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer1/>
         </div>
     )
 }
